@@ -1,0 +1,105 @@
+/* iCoach CSS Omaggio a John Whitmore 1.0.1*/
+.dashicons-admin-generic{display:none}
+.second-footer{background:#424242}
+.front-link{margin-left:1%;color:#f8f8f8;font-size:11px}
+.front-image{width:16px;vertical-align:middle;margin-right:3px}
+.menu-img{padding:0 4px;margin-left:2px;background:transparent;width:24px;height:24px;vertical-align:middle}
+.tutor-result{width:40px;border-radius:50%;float:left;border:2px solid #c0cc19;margin-right:6px}
+.pulse{display:block;position:relative;top:45px;left:28px;width:14px;height:14px;border-radius:50%;background:#da0000;z-index:1111111111111;box-shadow:0 0 0 rgba(171,0,0,0.7);animation:pulse 1s infinite;z-index:1}
+.pulse:hover{animation:none}
+@-webkit-keyframes pulse {
+0%{-webkit-box-shadow:0 0 0 0 rgba(204,169,44,0.4)}
+70%{-webkit-box-shadow:0 0 0 10px rgba(204,169,44,0)}
+100%{-webkit-box-shadow:0 0 0 0 rgba(204,169,44,0)}
+}
+@keyframes pulse {
+0%{-moz-box-shadow:0 0 0 0 rgba(204,169,44,0.4);box-shadow:0 0 0 0 rgba(204,169,44,0.4)}
+70%{-moz-box-shadow:0 0 0 10px rgba(204,169,44,0);box-shadow:0 0 0 10px rgba(204,169,44,0)}
+100%{-moz-box-shadow:0 0 0 0 rgba(204,169,44,0);box-shadow:0 0 0 0 rgba(204,169,44,0)}
+}
+
+li.adv{border-bottom:1px dotted #424242}
+a{text-decoration:none!important}
+a:focus{outline:none}
+.someSpinnerImage{-webkit-filter:grayscale(100%);filter:grayscale(100%);width:58px}
+#preloader{position:fixed;left:0;top:0;z-index:999;width:100%;height:100%;overflow:visible;background:#ffffff url(../images/preloader-logo.gif) no-repeat center center;background-size:400px}
+.version {width: 560px;max-width:100%;height: 40px;position: fixed!important;bottom: 0px;color: #8e8e8e;font-size: 11px;background: -moz-linear-gradient(top, rgba(229,229,229,0) -1%, rgba(229,229,229,0) 0%, rgba(241,241,241,1) 100%);background: -webkit-linear-gradient(top, rgba(229,229,229,0) -1%,rgba(229,229,229,0) 0%,rgba(241,241,241,1) 100%);background: linear-gradient(to bottom, rgba(229,229,229,0) -1%,rgba(229,229,229,0) 0%,rgba(241,241,241,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#f1f1f1',GradientType=0 );}
+
+
+.tooltip{position:relative;display:inline-block}
+.tooltip .tooltiptext{visibility:hidden;width:240px;background-color:#000;color:#fff;text-align:center;border-radius:6px;padding:5px 0;position:absolute;z-index:1;margin-top:-90px;margin-left:0}
+.tooltip:hover .tooltiptext{visibility:visible}
+
+
+.tooltip2{position:relative;display:inline-block;float:left;}
+.tooltip2 .tooltiptext2{    visibility: hidden;width: 190px;background-color: #000;color: #fff;text-align: center;border-radius: 4px;padding: 5px 0;position: absolute;z-index: 1;margin-top: -35px;margin-left: -108px;}
+.tooltip2:hover .tooltiptext2{visibility:visible}
+
+#wpfooter{display:none}
+.update-nag{display:none;}
+#wpbody-content{overflow:auto;}
+
+
+a{text-decoration:none!important;font-family:'Open Sans',sans-serif;outline:none;text-decoration:none;}
+a:hover{text-decoration:none;color:#656565}
+a:focus{outline:none;text-decoration:none;}
+h1{font-family:'Open Sans',sans-serif}
+h2{font-weight:400;line-height:25px;font-size:22px;margin:0;margin-right:10px}
+h2 a{color:#c0cc19}
+p{margin: 16px 0 30px;font-size: 13px;font-family: 'Open Sans',sans-serif;}
+p a{color:#333;text-decoration:underline}
+.note{color:#929292;font-size:14px;margin:0 0 30px;font-family:'Open Sans',sans-serif}
+.mains{  position: relative;  margin: 0 auto;margin-top:4%;width: 560px;max-width: 100%;min-height: 1000px;height: 100%;max-height: 100%;overflow: visible;}
+.mains_opzioni{  position: relative;  margin: 0 auto;margin-top:4%;width: 960px;max-width: 100%;overflow: visible;}
+.mains_info{  position: relative;  margin: 0 auto;margin-top:4%;width: 960px;max-width: 100%;overflow: visible;}
+.sett-but{border:1px solid #424242; padding:6px;color:#424242;border-radius:2px;}
+.sett-but:hover{border:none;background: #c0cc19; padding:6px;color:#ffffff;border-radius:2px;}
+.results{list-style-type:none;margin:0;padding:0;margin-top:52px;    text-align: left;}
+li{margin-bottom:66px}
+.mic:hover{opacity:.5}
+.but-result{padding:8px 14px;background:#c0cc19;text-decoration:none;color:#fff;border-radius:2px}
+.social-share i{margin-right:8px;vertical-align:middle;color:#c2c2c2!important}
+.social-share i:hover{opacity:.5}
+.sep{margin-left:6px;margin-right:16px;color:#676767;font-size:initial;vertical-align:middle}
+.list-inline{padding-left:0;margin-left:-5px;list-style:none}
+.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
+ul{list-style:none;margin:0}
+.social_list{z-index:9;text-align:center;margin-top:15px;}
+.social_list li{margin:0}
+.social_list li a{position:relative;font-size:16px;color:#424242;transition:all .3s;opacity:.75}
+.social_list li a:hover{color:#c0cc19;}
+.search{background-color:rgba(255,255,255,0.2);border:1px solid #d8d8d8;border-radius:3px;font-size:18px;height:50px;margin-bottom:10px;padding:6px 16px;width:100%;color:#424242;box-shadow:0 0 25px #cac9c9}
+.search:focus{background-color:rgba(255,255,255,0.4);border:none!important;box-shadow:0 2px 32px #c0cc19!important;transition:box-shadow .5s}
+input[type=text]:focus{border:none}
+textarea:focus,input:focus{outline:none}
+.totop{position:fixed;right:2%;bottom:2%;z-index:111;cursor:pointer}
+::-webkit-input-placeholder{font-size:13px;font-family:'Open Sans',sans-serif;color:#929292}
+::-moz-placeholder{font-size:13px;font-family:'Open Sans',sans-serif;color:#929292}
+:-ms-input-placeholder{font-size:13px;font-family:'Open Sans',sans-serif;color:#929292}
+:-moz-placeholder{font-size:13px;font-family:'Open Sans',sans-serif;color:#929292}
+.box{width:40%;margin:0 auto;background:rgba(255,255,255,0.2);padding:35px;border:2px solid #fff;border-radius:20px/50px;background-clip:padding-box;text-align:center}
+.bottone{border:none!important;border-color:transparent!important;background:transparent!important;transition:all .3s ease-out}
+.bottone:hover{opacity:.5}
+.bottone:focus{outline:none}
+.botton-dash{    background: #c0cc19;
+    border: none;
+    padding: 10px;
+    margin-right: 4px;
+	border-radius: 2px;}
+.botton-dash:hover{    background: #424242;
+    border: none;
+    padding: 10px;
+    margin-right: 4px;
+	border-radius: 2px;}	
+	.botton-dash a {color:#fff;}
+.overlay{position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,0)!important;transition:opacity 500ms;visibility:hidden;opacity:0}
+.overlay:target{visibility:visible;opacity:1}
+.popup{margin:90px auto;padding:20px;background:#fff;border-radius:5px;width:600px;max-width:100%;box-shadow:0 0 55px #424242;position:relative;transition:all 5s ease-in-out}
+.popup h2{margin-top:0;color:#333}
+.popup .close{position:absolute;top:20px;right:30px;transition:all 200ms;font-size:30px;font-weight:700;text-decoration:none;color:#333}
+.popup .close:hover{color:#06D85F}
+.popup .content{overflow:auto;height:320px!important}
+@media screen and (max-width: 700px) {
+.box{width:70%}
+.popup{width:70%}
+}
